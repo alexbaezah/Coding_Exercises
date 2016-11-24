@@ -1,5 +1,4 @@
 # YOUR CODE HERE
-require 'pry'
 def NextTrain()
   trains = [2,5,7.5,8.5,9,10,11.5,13.5,14.5,17,18,19,24]
   user_train, user_train_time = [],[]
