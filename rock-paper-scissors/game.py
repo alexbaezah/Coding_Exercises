@@ -14,7 +14,6 @@ options = {"r": Rock,
             "s": Scissors}
 
 def Game():
-    computer_score, user_score = 0,0
     computer_choice = random.choice(["rock", "paper", "scissors"])
     user_choice = raw_input("Choose rock (r), paper (p), or scissors (s): ").lower()
 
